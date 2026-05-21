@@ -354,9 +354,9 @@ ticCells.forEach((cell,index)=>{
 
         currentPlayer === "X"
 
-        ? "Bride Side Turn 💜"
+        ? "Grrom Side Turn 💜"
 
-        : "Groom Side Turn 💙";
+        : "Bride Side Turn 💙";
     }
 
   });
