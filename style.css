@@ -249,7 +249,7 @@ body::before{
     rgba(20,20,20,0.28),
     rgba(20,20,20,0.32)
   ),
-  url("assets/images/bg_1.jpg");
+  url("assets/images/bg_1.JPG");
 
   background-size:cover;
 
@@ -327,7 +327,7 @@ body::before{
     rgba(255,255,255,0.15),
     rgba(245,255,255,0.22)
   ),
-  url("assets/images/bg.jpg");
+  url("assets/images/bg.JPG");
 
   background-size:cover;
 
@@ -516,7 +516,7 @@ body::before{
     rgba(255,255,255,0.82),
     rgba(255,255,255,0.78)
   ),
-  url("assets/images/bg_1.jpg");
+  url("assets/images/bg_1.JPG");
 
   background-size:cover;
 
@@ -754,7 +754,7 @@ body::before{
   top:24px;
 
   background-image:
-  url("assets/images/bg_1.jpg");
+  url("assets/images/bg_1.JPG");
 
   background-size:cover;
 
@@ -1171,7 +1171,7 @@ body::before{
     rgba(255,240,210,0.8),
     rgba(255,255,255,0.6)
   ),
-    url("assets/images/bg_1.jpg");
+    url("assets/images/bg_1.JPG");
 
   background-size:cover;
 
@@ -1190,7 +1190,7 @@ body::before{
     rgba(236,220,255,0.8),
     rgba(255,255,255,0.6)
   ),
-    url("assets/images/bg_1.jpg");
+    url("assets/images/bg_1.JPG");
 
   background-size:cover;
 
@@ -1209,7 +1209,7 @@ body::before{
     rgba(255,210,245,0.8),
     rgba(220,200,255,0.7)
   ),
-    url("assets/images/bg_1.jpg");
+    url("assets/images/bg_1.JPG");
 
   background-size:cover;
 
@@ -1228,7 +1228,7 @@ body::before{
     rgba(255,220,220,0.8),
     rgba(255,255,255,0.6)
   ),
-    url("assets/images/bg_1.jpg");
+    url("assets/images/bg_1.JPG");
 
   background-size:cover;
 
@@ -1252,7 +1252,7 @@ body::before{
     rgba(255,210,180,0.8),
     rgba(255,255,255,0.6)
   ),
-    url("assets/images/bg_1.jpg");
+    url("assets/images/bg_1.JPG");
 
   background-size:cover;
 
@@ -1271,7 +1271,7 @@ body::before{
     rgba(255,220,240,0.8),
     rgba(255,255,255,0.6)
   ),
-    url("assets/images/bg_1.jpg");
+    url("assets/images/bg_1.JPG");
 
   background-size:cover;
 
