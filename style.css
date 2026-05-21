@@ -652,7 +652,7 @@ body::before{
   left:0;
 
   background-image:
-  url("assets/images/border.JPG");
+  url("assets/images/border.jpg");
 }
 
 .floral-right{
@@ -662,7 +662,7 @@ body::before{
   transform:scaleX(-1);
 
   background-image:
-  url('assets/images/border.JPG');
+  url('assets/images/border.jpg');
 }
 /* Couple Photos */
 
