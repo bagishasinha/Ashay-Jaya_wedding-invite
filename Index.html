@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"/>
+
+  <title>Ashay & Jaya Wedding</title>
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Fonts -->
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+
+  <link rel="stylesheet"href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+</head>
+
+<body>
+
+  <!-- Floating Petals -->
+
+  <div class="petals"></div>
+  <div class="sparkles"></div>
+  <div class="floral-left"></div>
+  <div class="floral-right"></div>
+  <!-- Music Button -->
+
+  <button class="music-btn" id="musicBtn">
+    🎵
+  </button>
+
+  <!-- Background Music -->
+
+  <audio id="bgMusic" loop>
+
+    <source src="assets/music/song.mp4"
+            type="audio/mp3">
+
+  </audio>
+
+  <!-- Opening Screen -->
+
+  <section class="opening-screen"
+           id="openingScreen">
+
+    <div class="invite-box">
+
+      <div class="seal">
+        🌸
+      </div>
+
+      <h1>
+        Ashay <span>&</span> Jaya
+      </h1>
+
+      <p>
+        Are Getting Married
+      </p>
+
+      <button id="openInvite">
+
+        Open Invitation
+
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- Main Website -->
+
+  <main id="mainContent"
+        class="hidden">
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <p class="shloka">
+
+        वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।<br>
+        निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥
+
+        </p>
+
+        <h2>
+          SAVE THE DATE
+        </h2>
+
+        <h1 class="couple-names">
+
+        <span class="ashay-name">
+            Ashay
+        </span>
+
+        <span class="and-text">
+            &
+        </span>
+
+        <span class="jaya-name">
+            Jaya
+        </span>
+
+        </h1>
+
+        <p>
+          27 June 2026
+        </p>
+
+        <div class="countdown-container">
+
+            <div class="time-box">
+
+                <span id="days">
+                00
+                </span>
+
+                <p>Days</p>
+
+            </div>
+
+            <div class="time-box">
+
+                <span id="hours">
+                00
+                </span>
+
+                <p>Hours</p>
+
+            </div>
+
+            <div class="time-box">
+
+                <span id="minutes">
+                00
+                </span>
+
+                <p>Minutes</p>
+
+            </div>
+
+            <div class="time-box">
+
+                <span id="seconds">
+                00
+                </span>
+
+                <p>Seconds</p>
+
+            </div>
+
+            </div>
+
+        <div class="side-selection">
+
+        <h3 class="choose-side">
+            आप किसकी तरफ़ से हैं? 💜
+        </h3>
+
+        <div class="side-buttons">
+
+            <button class="side-btn bride-btn"
+                    id="ladkiwaleBtn">
+
+            👰 Ladkiwale
+
+            </button>
+
+            <button class="side-btn groom-btn"
+                    id="ladkewaleBtn">
+
+            🤵 Ladkewale
+
+            </button>
+
+        </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Couple Introduction -->
+
+    <section class="couple-section">
+
+      <h2>
+        Meet The Couple
+      </h2>
+
+      <div class="couple-container">
+
+        <!-- Groom -->
+
+        <div class="couple-card" data-aos="fade-right">
+          <div class="couple-image">
+            <img src="assets/images/groom.jpg">
+          </div>
+
+          <h3>
+            Ashay
+          </h3>
+
+          <p>
+
+            Son of Late Dilip Kumar Sinha
+            <br>
+            & Mukti Sinha
+
+          </p>
+
+          <span>
+
+            📍 Jai Prakash Nagar, Gaya
+
+          </span>
+
+        </div>
+
+        <!-- Bride -->
+
+        <div class="couple-card"  data-aos="fade-left">
+
+          <div class="couple-image">
+            <img src="assets/images/bride.jpg">
+          </div>
+
+          <h3>
+            Jaya Raj
+          </h3>
+
+          <p>
+
+            Daughter of Mr. Rameshwar Kr Sinha
+            <br>
+            & Sunita Sinha
+
+          </p>
+
+          <span>
+
+            📍 Mithapur, Patna
+
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Wedding Timeline -->
+
+    <section class="timeline-section">
+
+      <h2>
+        Wedding Celebrations
+      </h2>
+
+      <div class="timeline">
+         <div class="timeline-line"></div>
+
+        <!-- Event 1 -->
+
+        <div class="event-card dev-card" data-aos="zoom-in">
+
+          <h3>
+            🌼🕉️ Dev Poojan
+          </h3>
+          
+          <p>
+            26 June • Morning
+          </p>
+          <p class="event-quote">
+            ॐ नमः पार्वती पतये हर हर महादेव 🙏
+          </p>
+          <div class="dress-code">
+
+            👗 Traditional & Graceful
+
+          </div>
+          <div class="event-buttons">
+            <a href="https://www.google.com/maps/place/Mahesh+Enterprises/@24.7842309,84.9999543,17z/data=!3m1!4b1!4m6!3m5!1s0x39f32b1437051cf5:0x1e82462e341bfa85!8m2!3d24.7842309!4d84.9999543!16s%2Fg%2F11nmyd1768?hl=en-IN&entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank">
+
+              View Location 📍
+
+            </a>
+            <button class="game-btn" id="diyaBtn">
+                🪔 Light Diya
+            </button>
+          </div>
+          <div class="diya-game hidden-game" id="diyaGame">
+
+          <div class="diya-row">
+
+            <div class="diya">
+              🪔
+            </div>
+
+            <div class="diya">
+              🪔
+            </div>
+
+            <div class="diya">
+              🪔
+            </div>
+
+          </div>
+
+          <p class="game-message">
+
+            Tap all diyas to light them ✨
+
+          </p>
+
+         </div>
+          
+
+        </div>
+
+        <!-- Event 2 -->
+
+        <div class="event-card mandap-card" data-aos="zoom-in">
+
+          <h3>
+            ⛩️🪷 Mandap & Gheedhari
+          </h3>
+
+          <p>
+            26 June • Afternoon
+          </p>
+          <p class="event-quote">
+
+            मिलके सजाएं मंडप,
+            दे सब मिलकर आशीर्वाद ✨
+
+            खुशियों से भरा रहे,
+            इन दोनों  का संसार 💜
+
+          </p>
+          <div class="dress-code">
+            👗 Pastels & Festive Vibes 🌸
+          </div>
+          <div class="event-buttons">
+            <a href="https://www.google.com/maps/place/Mahesh+Enterprises/@24.7842309,84.9999543,17z/data=!3m1!4b1!4m6!3m5!1s0x39f32b1437051cf5:0x1e82462e341bfa85!8m2!3d24.7842309!4d84.9999543!16s%2Fg%2F11nmyd1768?hl=en-IN&entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank">
+
+              View Location 📍
+
+            </a>
+            <button class="game-btn" id="mandapBtn">
+              🌸 Decorate Mandap
+            </button>
+          </div>
+          <div class="mandap-game-area hidden-game" id="mandapGame" >
+            <div class="mandap-area" id="mandapArea">
+
+              ⛩️
+
+            </div>
+
+            <button class="flower-btn"
+                    id="flowerBtn">
+
+              🌸 Add Flowers
+
+            </button>
+
+            <p id="mandapText">
+
+              Decorate the Mandap ✨
+
+            </p>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+
+        <div class="event-card sangeet-card" data-aos="zoom-in">
+
+          <h3>
+            🎶🪩 Sangeet Night
+          </h3>
+
+          <p>
+            26 June • Evening
+          </p>
+          <p class="event-quote">
+
+            जब तक DJ बजेगा,
+            तब तक कोई नहीं बैठेगा 🎶🔥
+
+          </p>
+          <div class="dress-code">
+            👗 Glam • Sparkle • Dance Ready ✨
+          </div>
+          <a href="https://www.google.com/maps/place/Mahesh+Enterprises/@24.7842309,84.9999543,17z/data=!3m1!4b1!4m6!3m5!1s0x39f32b1437051cf5:0x1e82462e341bfa85!8m2!3d24.7842309!4d84.9999543!16s%2Fg%2F11nmyd1768?hl=en-IN&entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D"
+             target="_blank">
+
+            View Location 📍
+
+          </a>
+          <button class="game-btn" id="sangeetBtn">
+            ❌⭕ Tic Tac Toe
+          </button>
+          <div class="tic-game hidden-game" id="ticGame">
+
+          <div class="tic-grid">
+
+            <div class="tic-cell"></div>
+            <div class="tic-cell"></div>
+            <div class="tic-cell"></div>
+
+            <div class="tic-cell"></div>
+            <div class="tic-cell"></div>
+            <div class="tic-cell"></div>
+
+            <div class="tic-cell"></div>
+            <div class="tic-cell"></div>
+            <div class="tic-cell"></div>
+
+          </div>
+
+          <p id="ticStatus">
+
+            Bride Side Turn 💜
+
+          </p>
+
+        </div>
+        </div>
+
+        <!-- Event 4 -->
+
+        <div class="event-card tilak-card" data-aos="zoom-in">
+
+          <h3>
+            👑 Tilak
+          </h3>
+
+          <p>
+            27 June • Morning
+          </p>
+          <p class="event-quote">
+
+            थोड़ी रस्में,
+            थोड़ा प्यार,
+            और ढेर सारी मस्ती 😎
+
+          </p>
+          <div class="dress-code">
+          👗 Lets Go Ethnic  👑
+          </div>
+          <div class="event-buttons">
+            <a href="https://www.google.com/maps/place/Garv+hotel+and+resort/@24.7887003,85.0012495,20z/data=!4m9!3m8!1s0x39f32b006ce5ffe1:0x72ea5913ad873d74!5m2!4m1!1i2!8m2!3d24.7885763!4d85.0018872!16s%2Fg%2F11wmmqzn6f?hl=en-IN&entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank">
+
+              View Location 📍
+
+            </a>
+            <button class="game-btn" id="tilakBtn">
+              🎯 Hit Tilak
+            </button>
+          </div>
+          <div class="tilak-game hidden-game" id="tilakGame">
+
+          <div class="tilak-target"
+              id="tilakTarget">
+
+            🎯
+
+          </div>
+
+          <p id="tilakText">
+
+            Hit the Tilak 🎯
+
+          </p>
+
+        </div>
+
+        </div>
+
+        <!-- Event 5 -->
+
+        <div class="event-card haldi-card" id="haldiCard" data-aos="zoom-in">
+
+          <h3>
+            🌸💛 Phool Haldi
+          </h3>
+
+          <p>
+            27 June • Pre-Afternoon
+          </p>
+           <p class="event-quote">
+
+            हल्दी भी लगेगी,
+            डांस भी होगा,
+            और मस्ती तो unlimited होगी 🌼💃
+
+          </p>
+          <div class="dress-code">
+
+            👗 Wear something you don't mind getting Haldi on 🌼😄
+
+          </div>
+          <div class="event-buttons">
+            <a href="https://www.google.com/maps/place/Garv+hotel+and+resort/@24.7887003,85.0012495,20z/data=!4m9!3m8!1s0x39f32b006ce5ffe1:0x72ea5913ad873d74!5m2!4m1!1i2!8m2!3d24.7885763!4d85.0018872!16s%2Fg%2F11wmmqzn6f?hl=en-IN&entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank">
+
+              View Location 📍
+
+            </a>
+            <button class="game-btn" id="haldiBtn">
+
+              🌼 Throw Haldi
+
+            </button>
+          </div>
+
+          <div class="haldi-counter hidden-game" id="haldiCounter">
+
+            <p id="haldiText">
+
+              Click to throw Haldi 🌼
+
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- Event 6 -->
+
+        <div class="event-card baarat-card" data-aos="zoom-in">
+
+          <h3>
+            🐎 Baarat
+          </h3>
+
+          <p>
+            27 June • Evening
+          </p>
+          <p class="event-quote">
+
+            लड़केवाले हैं जनाब 😎
+
+            बारात लेकर जाएंगे 🐎✨
+
+          </p>
+           <div class="dress-code">
+            👗 Dance-Ready Baraati Looks 🐎🔥
+          </div>
+          <div class="event-buttons">
+              <a href="https://www.google.com/maps/place/Garv+hotel+and+resort/@24.7887003,85.0012495,20z/data=!4m9!3m8!1s0x39f32b006ce5ffe1:0x72ea5913ad873d74!5m2!4m1!1i2!8m2!3d24.7885763!4d85.0018872!16s%2Fg%2F11wmmqzn6f?hl=en-IN&entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank">
+
+                View Location 📍
+
+              </a>
+              <button class="game-btn" id="baaratBtn">
+                🐎 Reach Mandap
+              </button>
+          </div>
+          <div class="maze-game hidden-game" id="mazeGame">
+
+            <div class="maze">
+
+              <div class="horse-player"
+                  id="horsePlayer">
+
+                🐎
+
+              </div>
+
+              <div class="mandap-goal">
+
+                ⛩️
+
+              </div>
+
+            </div>
+
+            <div class="maze-controls">
+
+              <button id="upBtn">⬆️</button>
+
+              <button id="leftBtn">⬅️</button>
+
+              <button id="rightBtn">➡️</button>
+
+              <button id="downBtn">⬇️</button>
+
+            </div>
+
+            <p id="mazeText">
+
+              Reach the Mandap ✨
+
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- Event 7 -->
+
+        <div class="event-card wedding-card" data-aos="zoom-in">
+
+          <h3>
+            💞 Wedding Ceremony
+          </h3>
+
+          <p>
+            27 June • Night
+          </p>
+          <p class="event-quote">
+
+            सात फेरे,
+            सात वचन,
+            और हमेशा साथ चलने का वादा ✨
+
+          </p>
+          <div class="dress-code">
+            👗 Traditional • Timeless • Elegant ✨
+          </div>
+          <div class="event-buttons">
+            <a href="https://www.google.com/maps/place/Garv+hotel+and+resort/@24.7887003,85.0012495,20z/data=!4m9!3m8!1s0x39f32b006ce5ffe1:0x72ea5913ad873d74!5m2!4m1!1i2!8m2!3d24.7885763!4d85.0018872!16s%2Fg%2F11wmmqzn6f?hl=en-IN&entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank">
+
+              View Location 📍
+
+            </a>
+            <button class="game-btn" id="ringBtn">
+              💍 Find The Ring
+            </button>
+          </div>
+          <div class="ring-game-area hidden-game" id="ringArea">
+              <div class="ring-game"id="ringGame">
+
+                  <div class="ring-box">🎁</div>
+
+                  <div class="ring-box">🎁</div>
+
+                  <div class="ring-box correct-ring">💍</div>
+                
+                <p id="ringText">
+
+                  Find the wedding ring 💜
+
+                </p>
+                </div>
+              
+            </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- JavaScript -->
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+        duration:1200,
+        once:true
+    });
+  </script>
+
+</body>
+
+</html>
