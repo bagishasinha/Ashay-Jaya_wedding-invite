@@ -246,8 +246,8 @@ body::before{
 
   background:
   linear-gradient(
-    rgba(20,20,20,0.28),
-    rgba(20,20,20,0.32)
+    rgba(219, 222, 44, 0.28),
+    rgba(104, 111, 80, 0.32)
   ),
   url("assets/images/bg_1.jpg");
 
@@ -825,7 +825,7 @@ body::before{
 
   color:#fff7ff;
 
-  margin-bottom:55px;
+  margin-bottom:50px;
 
   margin-top:-10px;
 
